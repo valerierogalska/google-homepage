@@ -6,18 +6,31 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>build this webpage - Google Search</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="https://www.google.com//images/branding/product/ico/googleg_lodp.ico">
+  <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
 </head>
 <body>
 <header>
   <div id="upper-header">
-    <div class="upper-item logo"></div>
-    <div class="upper-item search"></div>
-    <div class="upper-item account">
+    <div class="upper-item" id="logo">
+      <a href="https://www.google.com/"><img src="imgs/google-logo.png" alt="Solstice d'été 2018" width="120px" height="44px"></a>
+    </div>
+    <div class="upper-item" id="search">
+      <div class="search-container">
+        <div class="search-item">
+          <input type="text" title="search" value="build this webpage">
+        </div>
+        <div class="search-item">
+          <button type="button">
+            <span><a class="search-icon" href="#" title="Search"></a></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="upper-item" id="account">
       <div class="account-container">
-        <div class="account-item apps"></div>
-        <div class="account-item notif"></div>
-        <div class="account-item user"></div>
+        <div class="account-item apps"><a class="apps-icon" href="#" title="Google apps"></a></div>
+        <div class="account-item notif"><a class="notif-icon" href="#" title="0 Google notifications"></a></div>
+        <div class="account-item account"><a class="account-icon" href="#" title="Google account"></a></div>
       </div>
     </div>
   </div>
