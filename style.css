@@ -23,6 +23,8 @@ header {
 }
 
 .logo {
+  position: relative;
+  top: 4px;
   width: 150px;
 }
 
