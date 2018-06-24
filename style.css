@@ -60,50 +60,84 @@ input {
 }
 
 .search-icon {
-    height: 44px;
-    padding: 0 16px 0 8px;
-    position: relative;
-    top: -2px;
-    width: 24px;
+  height: 44px;
+  padding: 0 16px 0 8px;
+  position: relative;
+  top: -2px;
+  width: 24px;
 }
 
 button {
-    border: 0;
-    background-color: transparent;
-}
-
-.srchico-child {
-    color: #000;
-    cursor: default;
-    text-decoration: none;
-    background-image: url("imgs/icons.png");
-    background-size: 233px 43px;
-    width: 24px;
-    height: 24px;
-    background-position-y: 34px;
-    background-position-x: 23px;
-    display: inline-block;
-    position: absolute;
+  border: 0;
+  background-color: transparent;
 }
 
 .account {
-    min-width: 130px;
-    padding: 0 30px;
-    height: 30px;
-    justify-content: space-between;
-    margin-left: auto;
-    position: relative;
-    display: flex;
-    align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  width: 120px;
+  padding: 0 30px;
+  margin-left: auto;
 }
 
-.user-icon, .notif-icon, .apps-icon {
-    text-decoration: none;
-    background-image: url("imgs/icons.png");
-    background-size: 233px 43px;
-    width: 24px;
-    height: 24px;
-    background-position-y: 34px;
-    background-position-x: 23px;
-    display: flex;
+.srchico-child, .apps-icon, .notif-icon, .user-icon {
+  text-decoration: none;
+  display: inline;
+}
+
+.srchico-child, .apps-icon, .notif-icon {
+  background-image: url("imgs/icons.png");
+  background-size: 233px 43px;
+}
+
+.srchico-child {
+  cursor: default;
+  width: 24px;
+  height: 24px;
+  background-position-y: 34px;
+  background-position-x: 23px;
+  position: absolute;
+}
+
+.apps-icon {
+  background-position-y: 40px;
+  background-position-x: 86px;
+  opacity: .55;
+  width: 32px;
+  height: 32px;
+}
+
+.apps-icon:hover {
+  opacity: 1;
+}
+
+.notif-icon {
+  background-position-y: 32px;
+  background-position-x: 51.5px;
+  background-color: rgba(0,0,0,.55);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.notif-icon:hover {
+  background-color: rgba(0,0,0,1);
+}
+
+.user-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.usrico-child {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+}
+
+.usrico-child:hover {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
