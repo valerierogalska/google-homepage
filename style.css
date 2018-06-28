@@ -188,7 +188,7 @@ nav {
 }
 
 /*
- *  MAIN
+ *  MAIN - FEATURED
  */
 
 main {
@@ -206,6 +206,10 @@ main {
 
 #results {
   margin-top: 9px;
+}
+
+.featured {
+  margin-bottom: 22px;
 }
 
 .featured-main {
@@ -250,7 +254,7 @@ h1 {
 
 .url {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 17px;
   color: #006621;
 }
 
@@ -293,4 +297,42 @@ svg {
 .ftro-about, .ftro-feed {
   display: flex;
   margin-left: 22px;
+}
+
+/*
+ *  MAIN - REST
+ */
+
+.rest {
+  margin: 0 16px;
+}
+
+p {
+  line-height: 1.4;
+  color: #545454;
+}
+
+.date {
+  color: #808080;
+}
+
+.triangle-container {
+  display: inline;
+  position: relative;
+}
+
+.tri-link {
+  padding: 6px;
+}
+
+.tri {
+  border-color: #006621 transparent;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  top: 30%;
+  position: absolute;
+}
+
+.results-each {
+  margin-bottom: 26px;
 }
