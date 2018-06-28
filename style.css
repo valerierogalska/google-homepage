@@ -11,6 +11,10 @@ body {
   color: rgb(34, 34, 34);
 }
 
+/*
+ *  HEADER
+ */
+
 header {
   width: 100%;
   background-color: rgb(250, 250, 250);
@@ -181,4 +185,21 @@ nav {
 .navall-child, .navall-child:hover {
   color: rgb(26, 115, 232);
   font-weight: bold;
+}
+
+/*
+ *  MAIN
+ */
+
+main {
+  width: 632px;
+  min-width: 632px;
+  margin-left: 150px;
+}
+
+.stats {
+  display: block;
+  margin: 0 16px;
+  line-height: 43px;
+  color: #808080;
 }
